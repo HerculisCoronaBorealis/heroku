@@ -50,7 +50,7 @@ print(f">> 🟢 {user_name} IS ONLINE NOW...")
 bot_session = Updater(
     "5207207122:AAF96gNAG9ZU4SQZE9_8cTnrHYj5w2L0mEc", use_context=True)
 dispatcher = bot_session.dispatcher
-threading.Thread(target=slowMode, args=('>> 🟢 Slow Mode Enabled', )).start()
+# threading.Thread(target=slowMode, args=('>> 🟢 Slow Mode Enabled', )).start()
 threading.Thread(target=channelList, args=('>> 🟢 Slow Mode Enabled', )).start()
 
 
