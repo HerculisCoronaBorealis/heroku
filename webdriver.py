@@ -3,7 +3,7 @@ from threading import Thread
 import asyncio
 from getpass import getuser
 from telethon import TelegramClient, sync
-from replit import db
+# from replit import db
 
 
 api_id = '19592265'
@@ -25,7 +25,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-  return 'M GOOD'
+    return 'M GOOD'
 
 
 def run():
