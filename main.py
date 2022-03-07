@@ -91,7 +91,7 @@ def newlikeIt(link, cookie):
     content = requests.get(link.replace(
         ' ', "").replace('\n', ""), headers=header).text
     open("testingResults.html", 'w', encoding='utf-8').write(content)
-    print(content)
+    # print(content)
     askerId = content.split('data-askerId="')[1].split('"')[0]
     entityId = content.split('data-answerId="')[1].split('"')[0]
     # answerDate = content.split(
